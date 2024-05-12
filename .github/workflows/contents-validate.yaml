@@ -1,4 +1,4 @@
-name: Validación de ficheros de kanji
+name: Validación de ficheros de contenidos
 
 on:
   pull_request:
