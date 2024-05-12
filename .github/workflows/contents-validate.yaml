@@ -1,0 +1,21 @@
+name: Validación de ficheros de kanji
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  DATA_DIR: data
+  META_DIR: meta-data
+jobs:
+
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install js-yaml ajv
+      - name: validar contra esquema
+        uses: actions/github-script@v4
+        with:
+          script: |
+            require('.github/validar-schema.js')

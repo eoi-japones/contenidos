@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+
+            "type": "string",
+            "description": "Identificador del documento (único en todo el sistema)"
+        },
+
+        "clave": {
+
+            "type": "string",
+            "description": "la clave asignada al documento"
+        },
+
+        "ref": {
+
+            "type": "string",
+
+            "description": "localización del documento"
+
+        },
+
+        "labels": {
+
+
+            "description": "etiquetas de organización del documento",
+
+            "type": "object",
+
+            "patternProperties": {
+
+                "^.+$": { "type": "string" }
+
+            },
+
+            "additionalProperties": false
+
+
+        }
+
+    },
+
+    "additionalProperties": false,
+
+    "required": ["id", "clave", "labels"]
+}

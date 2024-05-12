@@ -1,0 +1,6 @@
+token
+.env
+.token
+*.swp
+*.swo
+
