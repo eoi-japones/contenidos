@@ -2,9 +2,10 @@ id: xa-a1.pr-mayo-1
 
 clave: "Práctica de japonés mayo I"
 
-ref: grupo1.pdf
+ref: https://eoi-japones.github.io/contenidos/a1_practica_particulas_mayo.pdf
 
 labels:
   nivel: a1
   tipo: practica
   mes: mayo
+  formato: pdf
