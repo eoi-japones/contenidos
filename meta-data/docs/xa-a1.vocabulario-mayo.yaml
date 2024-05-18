@@ -1,0 +1,11 @@
+id: xa-a1.vocabulario-mayo
+
+clave: "Vocabulario recomendado"
+
+ref: https://eoi-japones.github.io/contenidos/a1_vocabulario.pdf
+
+labels:
+  nivel: a1
+  tipo: teoria
+  mes: mayo
+  formato: pdf
