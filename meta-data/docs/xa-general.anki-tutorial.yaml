@@ -1,0 +1,11 @@
+id: xa-general.anki-tutorial
+
+clave: "Tutorial de Anki para crear contenido"
+
+ref: https://eoi-japones.github.io/contenidos/general_anki_tutorial.pdf
+
+labels:
+  nivel: general
+  tipo: tutorial
+  mes: mayo
+  formato: pdf
