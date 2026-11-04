@@ -22,6 +22,9 @@ Texto completo: <https://creativecommons.org/licenses/by-sa/4.0/legalcode.es>
 - `cuento-ave/haces-de-luz.webp`
 - `cuento-ave/paraguas.webp`
 - `cuento-ave/taberna.webp`
+- `cuento-ave/faro.webp`
+- `cuento-ave/anciana.webp`
+- `cuento-ave/manzano.webp`
 
 Las escenas se generan con el pipeline `watercolor-illustrator`; la fuente de verdad es
 el código de la escena y su semilla, no el WebP publicado.
